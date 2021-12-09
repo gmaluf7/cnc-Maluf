@@ -1,0 +1,171 @@
+
+$colorPrincipal: rgb(58, 182, 161);
+$colorFondo: rgb(207, 207, 207);
+$colorContraste: rgb(32, 32, 32);
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+#index {
+    background-color:$colorFondo;
+    display:grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: auto auto auto;
+}
+
+header{
+    grid-area: header;
+    .nav-item{
+    font-size: 18px;
+    }
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    grid-area: main;
+    section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+            h2{
+            color: $colorPrincipal;
+            text-align: center;
+            margin-bottom: 40px;
+            }
+
+            h3{
+            color: $colorContraste;
+            font-size: 18px;
+            margin: 1%;
+            }
+    }
+    .carousel-inner{
+        img{
+            height: 550px;
+        }
+    }
+}
+
+.card:hover{
+    transform: scale(1.03,1.03) ;
+}
+
+.nosotros{
+    background-image: url(../imagenes/laboratorio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 500px;
+    p {
+        color:whitesmoke;
+        text-align:center;
+        line-height: 2rem;
+        font-size: 0.8rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        letter-spacing: 1px;
+        background-color: rgba(0, 0, 0, 0.699); }
+        h2 {
+            color: #017a7a; 
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            padding-bottom: 2%;
+            position: relative;
+            letter-spacing: 2px;
+            text-shadow: white 1px 1px;
+        }
+    }
+
+footer {
+    grid-area: footer;
+    background-image:linear-gradient(to top, $colorContraste 5%, $colorFondo  );
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 10px;
+}
+
+#logoFooter{
+    width: 15vw;
+    display: none;
+}
+
+.paginas{ 
+    ul{list-style-type: none;
+    display: none;}
+    a{
+    color: black;
+    text-decoration: none;
+    }
+}
+.contacto ul{
+    list-style-type: none;
+
+}
+ 
+.contacto img{
+    width: 4vw; }
+
+.galeriaProductos article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:flex-start;
+        img{
+            margin: 10px;
+            width: 300px;
+            border-radius: 5%;
+        }
+}
+
+@media (min-width:1024px){
+    .galeriaProductos img{
+        width: 200px;
+        border-radius: 10%;
+    }
+
+    .galeriaProductos img:hover{
+        transform: scale(1.05,1.05);
+    }
+
+    #logoFooter{
+        display: block;
+        width: 10vw;
+    }
+
+    .nosotros{
+        p{
+            font-size: 20px;
+            line-height: 45px;
+        }
+        h2{
+            font-size: 1.5 rem;
+        }
+    }
+    .paginas ul{
+        display: block;
+    }
+
+    .contacto img{
+        width: 2vw;
+    }
+
+    footer{
+        font-size: 15px;
+        justify-content: space-around;
+    }
+}
+

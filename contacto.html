@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CNC DONELAB</title>
+        <link rel="stylesheet" href="css/destino.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>   
+
+    
+<body id="index">  
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="../Entrega 11/imagenes/logocnc.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quienes-somos.html">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="usuario.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                  </svg></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header> 
+    <main>       
+      <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.6451638993244!2d-64.21397028545061!3d-31.39634620242322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298eccbdb13b3%3A0x848cc79e5f8237d0!2sCNC%20Donelab%20srl!5e0!3m2!1ses!2sar!4v1635899391946!5m2!1ses!2sar" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                <section class="formulario">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+                  <div><form action="">
+                <label for="nombre"> Nombre y apellido: </label><br>
+                <input type="text" name="nombre" > <br>
+                <label for="correo"> Correo: </label><br>
+                <input type="email"  name="correo"> <br><br>
+                
+                <div>Masculino</div>
+                <input type="radio" name="genero" value="Masculino"><br>
+                <div>Femenino</div>
+                <input type="radio" name="genero" value="Femenino"><br>
+                <div>No binario</div>
+                <input type="radio" name="genero" value="nobinario"><br><br>
+    
+                <div>Suscribirse al Newsletter <input type="checkbox" name="newsletter" value="1"></div><br>
+                
+                <select name="provincia">
+                    <option value="">Provincia</option>
+                    <option value="buenosaires">Buenos Aires</option>
+                    <option value="catamarca">Catamarca</option>
+                    <option value="chaco">Chaco</option>
+                    <option value="chubut">Chubut</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="corrientes">Corrientes</option>
+                    <option value="entrerios">Entre Rios</option>
+                    <option value="formosa">Formosa</option>
+                    <option value="jujuy">Jujuy</option>
+                    <option value="lapampa">La Pampa</option>
+                    <option value="larioja">La Rioja</option>
+                    <option value="mendoza">Mendoza</option>
+                    <option value="misiones">Misiones</option>
+                    <option value="neuquen">Neuquen</option>
+                    <option value="rionegro">Río Negro</option>
+                    <option value="salta">Salta</option>
+                    <option value="sanjuan">San Juan</option>
+                    <option value="sanluis">San Luis</option>
+                    <option value="santacruz">Santa Cruz</option>
+                    <option value="santafe">Santa Fé</option>
+                    <option value="santiagodelestero">Sgo. del Estero</option>
+                    <option value="tierradelfuego">Tierra del Fuego</option>
+                    <option value="tucuman">Tucumán</option>
+                    <option value="otra">Otra</option>
+                </select><br><br></div>
+    
+              <div><label for="comentario"> Comentario: </label> <br>
+                <textarea name="comentario" cols="30" rows="10"></textarea><br>
+    
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar"></div></section>
+      </div>  
+    </div> 
+      
+
+    </main>
+    
+    <footer> 
+        <img src="imagenes/logocnc.png" alt="">
+        <article class="paginas">
+            <ul>
+                <a href="index.html"><li>Inicio</li></a>
+                <a href="quienes-somos.html"><li>Quienes somos</li></a>
+                <a href="productos.html"><li>Productos</li></a>
+                <a href="contacto.html"><li>Contacto</li></a>
+            </ul>
+        </article>
+        <article class="contacto">
+                <ul>
+                    <li><img src="imagenes/outline_location_on_black_24dp.png" alt=""> Dr Pedro Arata 2515, X5000 Córdoba</li>
+                    <li><img src="imagenes/outline_call_black_24dp.png" alt=""> +54 9 351 4880571</li>
+                    <li><img src="imagenes/outline_phone_iphone_black_24dp.png" alt=""> +54 9 351 6267495</li>
+                    <li><img src="imagenes/outline_email_black_24dp.png" alt=""> ventascnc@hotmail.com</li>
+                </ul>
+        </article>
+        <article>
+            &copy;2021 - Desarrollado por: Gabriel Maluf
+        </article>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
