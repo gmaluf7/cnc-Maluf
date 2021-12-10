@@ -71,7 +71,7 @@ main {
 
 footer {
   grid-area: footer;
-  background-image: linear-gradient(#cfcfcf 1%, #202020 30%);
+  background-image: linear-gradient(#cfcfcf 1%, #202020 25%);
   color: white; }
   footer a {
     color: white;

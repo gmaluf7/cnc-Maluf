@@ -99,15 +99,12 @@ main{
 
 footer {
     grid-area: footer;
-    background-image: linear-gradient($colorFondo 1%, $colorContraste 30%);
+    background-image: linear-gradient($colorFondo 1%, $colorContraste 25%);
     color: white;
     
     a{
         color:white;
         text-decoration: none;}
-    
-        
-    
     
  }
 
