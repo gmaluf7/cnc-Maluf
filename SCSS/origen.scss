@@ -99,6 +99,16 @@ main{
 
 footer {
     grid-area: footer;
+    background-image: linear-gradient($colorFondo 1%, $colorContraste 30%);
+    color: white;
+    
+    a{
+        color:white;
+        text-decoration: none;}
+    
+        
+    
+    
  }
 
 .galeriaProductos article{

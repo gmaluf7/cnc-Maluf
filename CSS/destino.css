@@ -70,7 +70,12 @@ main {
     text-shadow: white 1px 1px; }
 
 footer {
-  grid-area: footer; }
+  grid-area: footer;
+  background-image: linear-gradient(#cfcfcf 1%, #202020 30%);
+  color: white; }
+  footer a {
+    color: white;
+    text-decoration: none; }
 
 .galeriaProductos article {
   display: flex;
