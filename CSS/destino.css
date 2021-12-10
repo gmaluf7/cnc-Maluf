@@ -2,6 +2,9 @@ html {
   font-family: 'Roboto', sans-serif;
   width: 100%; }
 
+h1 {
+  display: none; }
+
 #index {
   background-color: #cfcfcf;
   display: grid;
@@ -31,8 +34,12 @@ main {
       color: #202020;
       font-size: 18px;
       margin: 1%; }
+    main section h4 {
+      color: #202020;
+      font-size: 14px;
+      margin: 1%; }
   main .carousel-inner img {
-    height: 550px; }
+    max-height: 550px; }
 
 .card:hover {
   transform: scale(1.03, 1.03); }
@@ -63,31 +70,7 @@ main {
     text-shadow: white 1px 1px; }
 
 footer {
-  grid-area: footer;
-  background-image: linear-gradient(to top, #202020 5%, #cfcfcf);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  font-size: 10px; }
-
-#logoFooter {
-  width: 15vw;
-  display: none; }
-
-.paginas ul {
-  list-style-type: none;
-  display: none; }
-
-.paginas a {
-  color: black;
-  text-decoration: none; }
-
-.contacto ul {
-  list-style-type: none; }
-
-.contacto img {
-  width: 4vw; }
+  grid-area: footer; }
 
 .galeriaProductos article {
   display: flex;
@@ -113,11 +96,4 @@ footer {
     font-size: 20px;
     line-height: 45px; }
   .nosotros h2 {
-    font-size: 1.5 rem; }
-  .paginas ul {
-    display: block; }
-  .contacto img {
-    width: 2vw; }
-  footer {
-    font-size: 15px;
-    justify-content: space-around; } }
+    font-size: 1.5 rem; } }

@@ -9,6 +9,10 @@ html {
     width: 100%;
 }
 
+h1{
+    display: none;
+}
+
 #index {
     background-color:$colorFondo;
     display:grid;
@@ -48,10 +52,16 @@ main{
             font-size: 18px;
             margin: 1%;
             }
+
+            h4{
+            color: $colorContraste;
+            font-size: 14px;
+            margin: 1%;
+            }
     }
     .carousel-inner{
         img{
-            height: 550px;
+            max-height: 550px;
         }
     }
 }
@@ -89,34 +99,7 @@ main{
 
 footer {
     grid-area: footer;
-    background-image:linear-gradient(to top, $colorContraste 5%, $colorFondo  );
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    font-size: 10px;
-}
-
-#logoFooter{
-    width: 15vw;
-    display: none;
-}
-
-.paginas{ 
-    ul{list-style-type: none;
-    display: none;}
-    a{
-    color: black;
-    text-decoration: none;
-    }
-}
-.contacto ul{
-    list-style-type: none;
-
-}
- 
-.contacto img{
-    width: 4vw; }
+ }
 
 .galeriaProductos article{
     display: flex;
@@ -155,17 +138,6 @@ footer {
             font-size: 1.5 rem;
         }
     }
-    .paginas ul{
-        display: block;
-    }
 
-    .contacto img{
-        width: 2vw;
-    }
-
-    footer{
-        font-size: 15px;
-        justify-content: space-around;
-    }
 }
 
