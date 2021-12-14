@@ -61,7 +61,7 @@ main{
     }
     .carousel-inner{
         img{
-            max-height: 550px;
+            max-height: 580px;
         }
     }
 }
@@ -70,31 +70,17 @@ main{
     transform: scale(1.03,1.03) ;
 }
 
+
+
 .nosotros{
     background-image: url(../imagenes/laboratorio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
-    height: 500px;
-    p {
-        color:whitesmoke;
-        text-align:center;
-        line-height: 2rem;
-        font-size: 0.8rem;
-        margin-left: 5%;
-        margin-right: 5%;
-        letter-spacing: 1px;
-        background-color: rgba(0, 0, 0, 0.699); }
-        h2 {
-            color: #017a7a; 
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-align: center;
-            padding-bottom: 2%;
-            position: relative;
-            letter-spacing: 2px;
-            text-shadow: white 1px 1px;
-        }
+    height: 550px;
+    
+
+ 
     }
 
 footer {
@@ -105,6 +91,7 @@ footer {
     a{
         color:white;
         text-decoration: none;}
+        
     
  }
 
@@ -120,6 +107,7 @@ footer {
             border-radius: 5%;
         }
 }
+
 
 @media (min-width:1024px){
     .galeriaProductos img{
