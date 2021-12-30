@@ -41,11 +41,41 @@ main {
   main .carousel-inner img {
     max-height: 580px; }
 
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 15px;
+  right: 15px;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  transition: .5s ease-in-out; }
+
+.btn-wsp:hover {
+  transform: translateY(-10px);
+  text-decoration: none;
+  background-color: #fff;
+  color: #0df053; }
+
 .card {
-  transition: 0.4s ease-in-out; }
+  transition: 0.3s ease-in-out; }
 
 .card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  transform: translateY(-10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.4); }
+
+.servicios .card {
+  transition: .5s ease-in-out;
+  filter: grayscale(70%); }
+
+.servicios .card:hover {
+  filter: grayscale(0%); }
 
 .usuarioBg {
   background-image: url(../imagenes/student-g5ccba7922_1920.jpg);
@@ -57,7 +87,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  height: 550px; }
+  height: 90vh; }
 
 footer {
   grid-area: footer;
@@ -77,18 +107,3 @@ footer {
     margin: 10px;
     width: 300px;
     border-radius: 5%; }
-
-@media (min-width: 1024px) {
-  .galeriaProductos img {
-    width: 200px;
-    border-radius: 10%; }
-  .galeriaProductos img:hover {
-    transform: scale(1.05, 1.05); }
-  #logoFooter {
-    display: block;
-    width: 10vw; }
-  .nosotros p {
-    font-size: 20px;
-    line-height: 45px; }
-  .nosotros h2 {
-    font-size: 1.5 rem; } }
