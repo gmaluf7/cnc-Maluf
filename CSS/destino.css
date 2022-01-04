@@ -87,7 +87,15 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  height: 90vh; }
+  height: 500px p;
+    height-font-size: 4vw; }
+
+.carrito {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8 rem; }
+  .carrito h5 {
+    font-size: 0.7rem; }
 
 footer {
   grid-area: footer;
@@ -107,3 +115,16 @@ footer {
     margin: 10px;
     width: 300px;
     border-radius: 5%; }
+
+@media (min-width: 600px) {
+  .nosotros p {
+    font-size: 2.5vw;
+    line-height: 5vw; }
+  .carrito {
+    font-size: 1rem; }
+    .carrito h5 {
+      font-size: 1rem; } }
+
+@media (min-width: 1024px) {
+  .nosotros p {
+    font-size: 2vw; } }
