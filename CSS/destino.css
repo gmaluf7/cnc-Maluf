@@ -29,6 +29,7 @@ main {
     main section h2 {
       color: #3ab6a1;
       text-align: center;
+      text-shadow: 1px 1px 2px #4b4b4b;
       margin-bottom: 40px; }
     main section h3 {
       color: #202020;
@@ -40,6 +41,9 @@ main {
       margin: 1%; }
   main .carousel-inner img {
     max-height: 580px; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
 
 .btn-wsp {
   position: fixed;
@@ -63,20 +67,6 @@ main {
   background-color: #fff;
   color: #0df053; }
 
-.card {
-  transition: 0.3s ease-in-out; }
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.4); }
-
-.servicios .card {
-  transition: .5s ease-in-out;
-  filter: grayscale(70%); }
-
-.servicios .card:hover {
-  filter: grayscale(0%); }
-
 .usuarioBg {
   background-image: url(../imagenes/student-g5ccba7922_1920.jpg);
   background-position: center;
@@ -93,7 +83,7 @@ main {
 .carrito {
   margin: 0;
   padding: 0;
-  font-size: 0.8 rem; }
+  font-size: 0.7rem; }
   .carrito h5 {
     font-size: 0.7rem; }
 
@@ -127,4 +117,14 @@ footer {
 
 @media (min-width: 1024px) {
   .nosotros p {
-    font-size: 2vw; } }
+    font-size: 1.7vw; }
+  .card {
+    transition: 0.3s ease-in-out; }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.4); }
+  .servicios .card {
+    transition: .5s ease-in-out;
+    filter: grayscale(70%); }
+  .servicios .card:hover {
+    filter: grayscale(0%); } }
