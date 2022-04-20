@@ -43,10 +43,9 @@ main {
       color: #202020;
       font-size: 13px;
       margin: 1%; }
-    main section p {
-      font-size: 1.5rem; }
-  main .carousel-inner img {
-    max-height: 100vh; }
+
+.carousel-inner img {
+  max-height: 100vh; }
 
 .navbar .navbar-collapse {
   text-align: center; }
@@ -78,14 +77,8 @@ main {
   background-position: center;
   background-size: cover; }
 
-.nosotros {
-  background-image: url(../imagenes/laboratorio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  height: 80vh; }
-  .nosotros p {
-    font-size: 4vw; }
+.nosotros p {
+  font-size: 1.2rem; }
 
 .carrito {
   margin: 0;
@@ -115,8 +108,10 @@ footer {
 
 @media (min-width: 600px) {
   .nosotros p {
-    font-size: 2.5vw;
-    line-height: 5vw; }
+    font-size: 1.4rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    text-align: center; }
   .carrito {
     font-size: 1rem; }
     .carrito h5 {
@@ -124,7 +119,10 @@ footer {
 
 @media (min-width: 1024px) {
   .nosotros p {
-    font-size: 1.7vw; }
+    font-size: 1.4rem;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    text-align: center; }
   .card {
     transition: 0.3s ease-in-out; }
   .card:hover {
