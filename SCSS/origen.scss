@@ -59,12 +59,21 @@ main{
             font-size: 14px;
             margin: 1%;
             }
+            h5{
+                color: $colorContraste;
+                font-size: 13px;
+                margin: 1%;
+                }
+
+            p{
+                font-size: 1.5rem;            }
     }
     .carousel-inner{
         img{
             max-height: 100vh;
         }
     }
+    
 }
 
 .navbar .navbar-collapse {
